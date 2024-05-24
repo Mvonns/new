@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTHENTHIC SHOE HUB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>AUTHENTHIC SHOE HUB</h1>
+  </header>
+    <header>
+      <div class="logo">
+        <img src="logo.image/22a8c4e5e8ac56627bade63fc575ce57.jpg" alt="AUTHENTHIC SHOE HUB" class="pop"  style="width:85%"></div>
+      </div>
+        <nav class="top-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Deals of the week</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav> 
+    </header>
+         <div class="search-container">
+        <input type="text" placeholder="Search..">
+        <span class="search-icon">&#x1F50D;</span>
+        <button class="sign-in"> sign in</button>
+        <button class="cart-icon">&#x1F6D2;</button>
+         </div>
+         <button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+       
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signup">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+    <main>
+       <!-- Main content goes here -->
+       <div class="container">
+        <img src="images.html/d5e52c85dc57871c15427a21b33970e1.jpg" alt="Authentic Styles" style="width:100%;">
+        <div class="text-block">
+          <h4>OUR FAVOURITE BRANDS</h4>
+          <p>Nike,Adidas,Puma,Reebok,New Balance,Converse,Vans,Timberland,Clarks</p>
+        </div>
+      </div>
+      <hr class="solid"></hr>
+    <section id="new-arrivals">
+        <h2>NEW ARRIVALS</h2>
+        <div class="container">
+            <div class="slider-wrapper">
+                <button id="prev-slide-new" class="slide-button material-symbols-rounded">
+                    &#8249;
+                </button>
+                <ul class="image-list">
+            <img src="images.html/2a6615502596ffe6441689237058030c.jpg" alt="Jordan4" width="600" height="400">
+           
+            <img src="images.html/2c554d49e4ccd3ecd8c14842d848fa94.jpg" alt="Addidas" width="600" height="400">
+           
+            <img src="images.html/bf68852fd9498e65fcc3f2ef1a170cdf.jpg" alt="Badbunny" width="600" height="400">
+            
+            <img src="images.html/db6f6d7a51c23cd04512113ad73f980a.jpg" alt="AirJordan 1 Low" width="600" height="400">
+            
+            <img src="images.html/d5b7005bc93b23445d47c93f58b20da9.jpg" alt="AirJordan 1 High" width="600" height="400">
+            
+            <img src="images.html/f5605687c6b641b785e0b4834f6c07b3.jpg" alt="Vans" width="600" height="400">
+                </ul>
+                <button id="next-slide-new" class="slide-button material-symbols-rounded">
+                    &#8250;
+                </button>
+              </div>
+              <div class="slider-scrollbar">
+                <div class="scrollbar-track">
+                  <div class="scrollbar-thumb"></div>
+                </div>
+              </div>
+            </div>
+            <br>
+        <div class="container">
+            <img src="images.html/725c5e396b63f025e3d603dd2214e616.jpg" alt="Airforce" style="width:100%;">
+            <div class="text-block">
+              <h4>BEST SELLERS</h4>
+              <p>THE BEST TASTE OF STYLE</STYLE></p>
+            </div>
+          </div>
+          <hr class="solid"></hr>
+    </section>
+    <section id="recommendations-for-you">
+        <h2>RECOMMENDATIONS FOR YOU</h2>
+        <section class="product">
+            <button id="prev-slide-rec" class="pre-btn"><img src="arrow.image/fe633f65fbdb702027be5beeaaf1ce92.jpg" alt="" width="40" height="40"></button>
+            <button id="next-slide-rec" class="nxt-btn"><img src="arrow.image/fe633f65fbdb702027be5beeaaf1ce92.jpg" alt="" width="40" height="40"></button>
+            <div class="product-container">
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">5% off</span>
+                        <img src="images2.html/b96675136a01dcce62bdb706dc26abf1.jpg" class="product-thumbnail"
+                        alt="Jordan4">
+                        <button class="card-btn">add to wishlist</button></button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Nike</h2>
+                        <p class="product-short-description"> Jordan 4 high quality<br><br>
+                        sizes 36_45 available</p>
+                        <span class="price">PRICE ksh4000</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">5% off</span>
+                        <img src="images2.html/95501bc39f9d72d8bcfeb5402b09c25d.jpg" class="product-thumbnail"
+                        alt="Timberland">
+                        <button class="card-btn">add to wishlist</button></button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Timberland</h2>
+                        <p class="product-short-description">Sizes 40_46 available</p>
+                        <span class="price">PRICE ksh5000</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">5% off</span>
+                        <img src="images2.html/c325b2146d08db2b82d899d0fa4be7f1.jpg" class="product-thumbnail"
+                        alt="SB DUNK">
+                        <button class="card-btn">add to wishlist</button></button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Nike</h2>
+                        <p class="product-short-description">SB DUNKS</p>
+                        <span class="price">PRICE ksh3800</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">5% off</span>
+                        <img src="images2.html/140a9e6e5736afbef6b0c55f73b10006.jpg" class="product-thumbnail"
+                        alt="Addidas">
+                        <button class="card-btn">add to wishlist</button></button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">ADDIDAS</h2>
+                        <p class="product-short-description">Addidas</p>
+                        <span class="price">PRICE ksh3500</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">5% off</span>
+                        <img src="images2.html/55d29e902a1bf75c31b879bc7d3ebf09.jpg" class="product-thumbnail"
+                        alt="Airforce">
+                        <button class="card-btn">add to wishlist</button></button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Nike</h2>
+                        <p class="product-short-description">Airforce 1 White All available</p>
+                        <span class="price">PRICE ksh 2500</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">5% off</span>
+                        <img src="images2.html/653642ea1d54f0119911c1a00a9c34bd.jpg" class="product-thumbnail"
+                        alt="SB DUNK">
+                        <button class="card-btn">add to wishlist</button></button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Nike</h2>
+                        <p class="product-short-description">Nike SB DUNK</p>
+                        <span class="price">PRICE ksh3800</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">5% off</span>
+                        <img src="images2.html/82755bca635204c30e142950f2903c63.jpg" class="product-thumbnail"
+                        alt="Airforce Black">
+                        <button class="card-btn">add to wishlist</button></button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Nike</h2>
+                        <p class="product-short-description">Airforce Black Sizes 36_45 available</p>
+                        <span class="price">PRICE ksh2500</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">5% off</span>
+                        <img src="images2.html/92fb1b70a35b8b39fe08962adff97d14.jpg" class="product-thumbnail"
+                        alt="Nike SB DUNKS">
+                        <button class="card-btn">add to wishlist</button></button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Nike</h2>
+                        <p class="product-short-description">SB DUNKS Sizes 36_45 available</p>
+                        <span class="price">PRICE ksh3800</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">5% off</span>
+                        <img src="images2.html/f817230bbbec0165348a15834e3907b1.jpg" class="product-thumbnail"
+                        alt="Drake Nocta">
+                        <button class="card-btn">add to wishlist</button></button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Nike</h2>
+                        <p class="product-short-description">Nike Nocta Sizes 40_45 available</p>
+                        <span class="price">PRICE ksh3800</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <hr class="solid"></hr>
+    <section id="OUR STORY">
+        <div class="content">
+        <h2>OUR STORY</h2>
+        <p> Our Journey: AUTHENTIC SHOE HUB
+
+            It's hard to believe that it's only been a year since we embarked on this exciting journey. When we first launched AUTHENTHIC SHOE HUB in January 2023, we had a simple mission: to create a destination where shoe enthusiasts could come together to celebrate their love of footwear.
+            
+            In those early days, we were a small but passionate team, working tirelessly to build a platform that would showcase the latest trends, styles, and innovations in the world of shoes. We poured our hearts into every detail, from the sleek design of our website to the carefully curated selection of products we offered.
+            
+            Fast forward to today, and we're proud to say that AUTHENTIC SHOE HUB has become a thriving community of shoe lovers from all around the world. Over the past year, we've published countless articles, reviews, and features, covering everything from the hottest sneaker releases to the most elegant high heels.
+            
+            We've also had the privilege of working with some of the biggest names in the industry, from established brands to up-and-coming designers. Through it all, we've remained true to our mission, always striving to provide our readers with the most comprehensive, informative, and engaging content possible.
+            
+            Of course, we couldn't have done it without you, our loyal fans and followers. Your support, feedback, and enthusiasm have been the driving force behind our success, and we're grateful for every comment, like, and share.
+            
+            As we look to the future, we're excited to continue growing and evolving, always seeking new ways to bring you the best of the shoe world. We have some exciting plans in the works, so stay tuned for what's to come!
+            
+            Thank you for being a part of our journey. Here's to another year of fabulous footwear!
+        </p>
+    </div>
+</section>
+    </section>
+    <hr class="solid"></hr>
+    <section id="FOLLOW US ON INSTAGRAM">
+        <h2>FOLLOW US ON INSTAGRAM</h2>
+        <section id="image-gallery">
+            <div class="image-wrapper">
+                <img src="Instagram-images.html/0ae8611d-139e-421e-8753-4a4f935ebaf1.jpeg" alt="Airmax 95 Cortez 🔥⚡🔥">
+            </div>
+            <div class="image-wrapper">
+                <img src="Instagram-images.html/ad46d4ff-cf88-47f2-8dcb-b3d4e8685711.jpeg" alt="Clarks Wallabees">
+            </div>
+            <div class="image-wrapper">
+                <img src="Instagram-images.html/b7423c4e-1a92-4f32-8bcd-e309d1021b4c.jpeg" alt="Nike SB Dunk Low Supreme Rammellzee ‼️🔥">
+            </div>
+            <div class="image-wrapper">
+                <img src="Instagram-images.html/b9021145-36c3-4aab-a22b-255a1fe16827.jpeg" alt="Lv Trainers">
+            </div>
+            <div class="image-wrapper">
+                <img src="Instagram-images.html/99c090ce-4ea4-4980-8c2c-3716f2379faa.jpeg" alt="Jordan 4 frozen moments">
+            </div>
+            <div class="image-wrapper">
+                <img src="Instagram-images.html/c1036d6f-9991-47a3-b4ff-10e31bd4a864.jpeg" alt="Jordan 3 tiger">
+            </div>
+        </section>
+    </section>
+</main>
+<footer>
+  <div class="footer-column1">
+    <h3>Customer Service</h3>
+    <ul style="list-style-type: none;">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">News and Events</a></li>
+        <li><a href="#">Returns</a></li>
+    </ul>
+</div>
+<div class="footer-column2">
+    <h3>Visit our Store</h3>
+    <p>54 mvns <br>uptown, Nairobi</p>
+    <p>(070) 798-8754</p>
+    <p>Monday-Friday: 9:00am - 8:00pm<br>Saturday: 10:00am - 7:00pm</p>
+</div>
+<div class="footer-column3">
+    <h3><U>Connect with Us</U></h3>
+    <div class="social-icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Social media icons container -->
+<div class="social-media-icons">
+<!-- Instagram icon -->
+<a href="https://www.instagram.com/yourinstagramhandle/" target="_blank">
+<i class="fab fa-instagram" aria-hidden="true"></i>
+</a>
+
+<!-- Facebook icon -->
+<a href="https://www.facebook.com/yourfacebookpage/" target="_blank">
+<i class="fab fa-facebook-f" aria-hidden="true"></i>
+</a>
+
+<!-- Twitter icon -->
+<a href="https://twitter.com/yourtwitterhandle" target="_blank">
+<i class="fab fa-twitter" aria-hidden="true"></i>
+</a>
+
+<!-- LinkedIn icon -->
+<a href="https://www.linkedin.com/in/yourlinkedinprofile/" target="_blank">
+<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+</a>
+
+<!-- YouTube icon -->
+<a href="https://www.youtube.com/youryoutubechannel" target="_blank">
+<i class="fab fa-youtube" aria-hidden="true"></i>
+</a>
+</div>
+          <br>
+          <br>
+          <p>&copy; 2024 AUTHENTIC SHOE HUB. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
